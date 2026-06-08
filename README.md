@@ -5,6 +5,8 @@
 [![Plugin Ready](https://img.shields.io/badge/Codex-Plugin%20Ready-2563eb.svg)](.codex-plugin/plugin.json)
 [![Release](https://img.shields.io/badge/Release-v0.1.0-7c3aed.svg)](CHANGELOG.md)
 
+[简体中文](README.zh-CN.md)
+
 Karpathy-inspired coding-agent discipline, packaged natively for Codex.
 
 This project turns a small set of practical coding-agent principles into a reusable Codex skill: reason before editing, keep the solution small, edit surgically, and verify the goal. It is designed for day-to-day software work where the best agent is not the flashiest one, but the one that changes exactly what matters and can explain why.
