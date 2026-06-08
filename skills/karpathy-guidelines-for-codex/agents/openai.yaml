@@ -1,0 +1,5 @@
+interface:
+  display_name: "Karpathy Guidelines for Codex"
+  short_description: "Careful coding-agent workflow for Codex."
+  default_prompt: "Apply Karpathy-style coding-agent discipline to this task."
+  brand_color: "#0F766E"

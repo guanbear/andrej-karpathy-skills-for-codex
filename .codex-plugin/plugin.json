@@ -1,0 +1,37 @@
+{
+  "name": "andrej-karpathy-skills-for-codex",
+  "version": "0.1.0",
+  "description": "A Codex-native skill package inspired by Andrej Karpathy's coding-agent guidance: reason first, keep changes small, edit surgically, and verify outcomes.",
+  "author": {
+    "name": "Guan Zhicheng"
+  },
+  "homepage": "https://github.com/guanzhicheng/andrej-karpathy-skills-for-codex",
+  "repository": "https://github.com/guanzhicheng/andrej-karpathy-skills-for-codex",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skill",
+    "coding-agent",
+    "agent-behavior",
+    "karpathy-inspired",
+    "code-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Karpathy Guidelines for Codex",
+    "shortDescription": "Apply careful coding-agent discipline in Codex.",
+    "longDescription": "A Codex-native skill inspired by Andrej Karpathy's public observations about coding-agent failure modes and by community skill packages. It helps Codex surface assumptions, avoid overbuilding, keep diffs narrow, and verify the result.",
+    "developerName": "Guan Zhicheng",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Apply Karpathy-style coding-agent discipline to this task.",
+      "Review this change for assumptions, overengineering, unrelated edits, and weak verification.",
+      "Keep the implementation simple and verify the smallest meaningful outcome."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
