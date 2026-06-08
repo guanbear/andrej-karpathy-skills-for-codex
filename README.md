@@ -38,7 +38,19 @@ Use it when writing, reviewing, debugging, or refactoring code.
 
 ## Install As A Local Skill
 
-Copy or symlink the skill folder into a Codex-discovered skill location:
+Run the installer from a local clone:
+
+```bash
+./scripts/install-local-skill.sh
+```
+
+The installer symlinks the skill into:
+
+```text
+~/.agents/skills/karpathy-guidelines-for-codex
+```
+
+You can also install manually by copying the skill folder into a Codex-discovered skill location:
 
 ```bash
 mkdir -p ~/.agents/skills

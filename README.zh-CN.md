@@ -36,7 +36,19 @@
 
 ## 作为本地 Skill 安装
 
-把 skill 目录复制或软链接到 Codex 会扫描的位置：
+在本地 clone 后运行安装脚本：
+
+```bash
+./scripts/install-local-skill.sh
+```
+
+脚本会把 skill 软链接到：
+
+```text
+~/.agents/skills/karpathy-guidelines-for-codex
+```
+
+也可以手动把 skill 目录复制到 Codex 会扫描的位置：
 
 ```bash
 mkdir -p ~/.agents/skills

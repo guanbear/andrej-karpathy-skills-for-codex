@@ -7,6 +7,7 @@ const requiredFiles = [
   "README.md",
   "NOTICE.md",
   "LICENSE",
+  "scripts/install-local-skill.sh",
 ];
 
 for (const file of requiredFiles) {

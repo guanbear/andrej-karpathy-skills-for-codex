@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here.
 
+## [0.1.1] - 2026-06-08
+
+### Added
+
+- Local skill installer script: `scripts/install-local-skill.sh`.
+
 ## [0.1.0] - 2026-06-08
 
 Initial public release.
